@@ -16,14 +16,11 @@
                     <div class="grid-columns">
                         <p id="description">
                             Our job at <strong>Healthy Eating</strong> is to map
-                            the eating habbits of the population.
+                            the eating habits of the population.
 
                             <span class="new-line">Please
                             fill in the form below to help us with our work.</span>
                         </p>
-                        <div class="col">
-                            <img src="img/carrot-solid.svg" alt="Icon" />
-                        </div>
                     </div>
                 </header>
 
@@ -33,8 +30,7 @@
                             Personal information
                         </h2>
                         <label class="main-label" id="name-label" for="name"
-                            >Name</label
-                        >
+                            >Name</label>
                         <input
                             type="text"
                             name="name"
@@ -43,8 +39,7 @@
                             required
                         />
                         <label class="main-label" id="email-label" for="email"
-                            >Email</label
-                        >
+                            >Email</label>
                         <input
                             type="email"
                             name="email"
@@ -213,38 +208,13 @@
                 </div>
 
                 <section id="add-info">
-                    <h2>
-                        Additional information
-                    </h2>
-                    <label class="main-label" for="comments">Comments</label>
-                    <textarea
-                        name="comments"
-                        id="comments"
-                        cols="30"
-                        rows="10"
-                        placeholder="Enter your comment here..."
-                    ></textarea>
-                    <div class="row">
-                        <fieldset class="fset-sub">
-                            <legend class="main-label legend-sub">
-                                Newsletter
-                            </legend>
-                            <div class="option">
-                                <input
-                                    id="newsletter"
-                                    type="checkbox"
-                                    name="newsletter"
-                                    value="subscribe"
-                                />
-                                <label for="newsletter"
-                                    >Keep in touch with our newsletter</label
-                                >
-                            </div>
-                        </fieldset>
-                        <div class="col">
+                    <div class="form-group">
+                        <p>Any comments or suggestions?</p>
+                        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>
+                    </div>
+                       <div class="col">
                             <button id="submit" class="btn">Submit</button>
                         </div>
-                    </div>
                 </section>
             </form>
         </main>
